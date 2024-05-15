@@ -7,31 +7,32 @@ OpenIRIS is an advanced iris authentication system that leverages modern techniq
 
 OpenIRIS/
 ├── data/
-│ ├── raw/
-│ ├── processed/
-│ └── models/
+│   ├── raw/
+│   ├── processed/
+│   └── models/
 ├── src/
-│ ├── preprocessing/
-│ │ ├── iris_segmentation.py
-│ │ └── normalization.py
-│ ├── feature_extraction/
-│ │ ├── gabor_filters.py
-│ │ └── deep_features.py
-│ ├── matching/
-│ │ ├── hamming_distance.py
-│ │ └── neural_matching.py
-│ ├── utils/
-│ │ ├── logger.py
-│ │ └── image_utils.py
-│ └── main.py
+│   ├── preprocessing/
+│   │   ├── iris_segmentation.py
+│   │   └── normalization.py
+│   ├── feature_extraction/
+│   │   ├── gabor_filters.py
+│   │   └── deep_features.py
+│   ├── matching/
+│   │   ├── hamming_distance.py
+│   │   └── neural_matching.py
+│   ├── utils/
+│   │   ├── logger.py
+│   │   └── image_utils.py
+│   └── main.py
 ├── tests/
-│ ├── test_segmentation.py
-│ ├── test_feature_extraction.py
-│ ├── test_matching.py
-│ └── test_pipeline.py
+│   ├── test_segmentation.py
+│   ├── test_feature_extraction.py
+│   ├── test_matching.py
+│   └── test_pipeline.py
 ├── README.md
 ├── requirements.txt
 └── setup.py
+
 
 ## Installation
 
