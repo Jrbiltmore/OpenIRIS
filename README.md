@@ -1,10 +1,10 @@
-
 # OpenIRIS
 
 OpenIRIS is an advanced iris authentication system that leverages modern techniques in computer vision, machine learning, and optimization to provide superior accuracy and speed.
 
 ## Directory Structure
 
+```
 OpenIRIS/
 ├── data/
 │   ├── raw/
@@ -32,7 +32,7 @@ OpenIRIS/
 ├── README.md
 ├── requirements.txt
 └── setup.py
-
+```
 
 ## Installation
 
@@ -54,3 +54,4 @@ To run tests, execute:
 ```bash
 pytest tests/
 ```
+'''
